@@ -5,7 +5,7 @@ import requests
 api_url = "http://203c15850d9512ad1238gudqhheyyyyyb.oast.pro"
 port = '/dev/cu.usbmodem11201'
 
-while True: # Keep trying forever
+while True: # Keep trying forever hhh
     try:
         # 1. Try to open the serial port
         ser = serial.Serial(port, 9600, timeout=1)
